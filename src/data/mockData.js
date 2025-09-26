@@ -1,0 +1,42 @@
+export const initialItems = [
+    {
+        id: 1,
+        name: 'Wireless Mouse',
+        sku: 'WM-1001',
+        quantity: 42,
+        category: 'Electronics',
+        location: 'Aisle 3',
+    },
+    {
+        id: 2,
+        name: 'Mechanical Keyboard',
+        sku: 'MK-2202',
+        quantity: 18,
+        category: 'Electronics',
+        location: 'Aisle 3',
+    },
+    {
+        id: 3,
+        name: 'Office Chair',
+        sku: 'OC-8830',
+        quantity: 7,
+        category: 'Furniture',
+        location: 'Aisle 9',
+    },
+    {
+        id: 4,
+        name: 'Notebook A5',
+        sku: 'NB-5010',
+        quantity: 120,
+        category: 'Stationery',
+        location: 'Aisle 1',
+    },
+    {
+        id: 5,
+        name: 'Packing Tape',
+        sku: 'PT-3399',
+        quantity: 55,
+        category: 'Supplies',
+        location: 'Aisle 5',
+    },
+];
