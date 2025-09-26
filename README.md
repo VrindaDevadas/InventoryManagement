@@ -1,7 +1,7 @@
 # StockFlow - Inventory Management Dashboard
 
 <p align="center">
-  <a href="" > StockFlow </a>
+  <a href="https://inventorymngt.vercel.app/" > StockFlow </a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ StockFlow provides a clean and efficient interface for tracking inventory. It in
 -   **Styling**: Tailwind CSS
 -   **State Management**: React Context API
 -   **Icons**: React Icons
--   **Deployment**: Vercel / Netlify (Example)
+-   **Deployment**: Vercel
 
 ## 📦 Installation
 
@@ -96,3 +96,13 @@ This project was built with a clear set of assumptions to serve as a solid found
 3.  **Component Architecture (Modularity)**: The UI is broken down into small, single-purpose components (`StatCard`, `InventoryList`, etc.) to promote reusability and simplify maintenance.
 
 4.  **Styling (Utility-First)**: The project uses **Tailwind CSS** for styling, with a custom theme defined in `tailwind.config.js`. This utility-first approach accelerates development and simplifies the creation of responsive designs.
+
+
+## 🚀 Future Expansion
+
+This application is designed for easy expansion. Here are a few ways it could be enhanced:
+
+-   **Backend Integration**: Replace the mock data with a real API by refactoring `InventoryContext` to make asynchronous calls to a backend service (e.g., Node.js/Express) connected to a database (e.g., PostgreSQL, MongoDB).
+-   **User Authentication**: Implement a login/signup system to support multiple users, with role-based access control (e.g., admin, manager, staff).
+-   **Advanced Features**: Introduce features like barcode scanning, low-stock notifications, inventory history tracking, and data visualization with reporting dashboards.
+-   **Robust State Management**: For more complex state interactions, migrate from Context API to a more powerful solution like **Redux Toolkit** or **Zustand**.
